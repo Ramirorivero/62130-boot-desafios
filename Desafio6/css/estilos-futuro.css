@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto+Slab:wght@900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/img/ciudad.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Electrolize', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 200px;;
+    background:linear-gradient(90deg,transparent, 75%,#04dcf9);
+    border: 0.5px solid #fff;
+    border-radius: 5px ;
+    box-shadow: 0 0 5px 5px #fff;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: #fff;
+}
+fieldset{
+    text-align: center;
+    margin: 10px 200px;
+    background-image: url(/img/ciudad2.png);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 5px #fff;
+    color: #fff;
+    font-size: 18px;
+}
+fieldset:hover{
+    box-shadow: 0 0 15px 15px #30AADE;
+}
+legend{
+    width: 50%;
+    background-color: #000;
+    color:#30AADE;
+    font:  18px 'Electrolize', sans-serif;
+    border-radius: 5px;
+    padding:10px ;
+    box-shadow: 0 0 5px 5px #000;
+    border: 0.5px solid #79D5DF;
+}
+
+.elementobloque{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputcajas,textarea{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+textarea{
+    height: 100px;
+}
+input:focus-within,textarea:focus-within{
+    outline: none;
+    border: 3px solid #79D5DF;
+}
+select:focus-within{
+    outline: none;
+    border: 3px solid #79D5DF;
+}
+.contenedordecondiciones{
+    color: #fff;
+    font:   18px 'Electrolize', sans-serif;
+    margin: 20px 200px;
+}
+#conenedorbotones{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 50px 400px;
+}
+.botones{
+    background:linear-gradient(90deg,transparent, 75%,#04dcf9);
+    color: #8EC1BC;
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    font:18px 'Electrolize', sans-serif;
+    border: 3px solid #79D5DF;   
+}
+.botones:hover{
+    background:linear-gradient(90deg,transparent,#79D5DF 75%,#04dcf9);
+    color: #000; 
+}

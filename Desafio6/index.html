@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--<link rel="stylesheet" href="css/estilos-retro.css">-->
+    <!--<link rel="stylesheet" href="css/estilos-futuro.css">-->
+</head>
+<body>
+    <header>
+         <h1>Vení al Gym!💪🏽</h1>
+    </header>
+    <form action="" method="get">
+        <fieldset id="primerfieldset">
+            <legend><span>🙋🏼‍♂️ D</span>ATOS <span>P</span>ERSONALES <span>👀</span></legend>
+            <label class="elementobloque" for="nombre">Nombre:*</label>
+            <input class="inputcajas" type="text" id="nombre" name="nombrecito" required><br>
+            <label class="elementobloque" for="apellido">Apellido:*</label>
+            <input class="inputcajas" type="text" id="apellido" name="apellidito" required><br>
+            <label class="elementobloque" for="documento">Documento:*</label>
+            <input class="inputcajas" type="number" id="documento" name="documentito" required><br>
+            <label class="elementobloque" for="nacionalidad">Nacionalidad:*</label>
+            <select class="inputcajas" id="nacionalidad" name="nacionalidades" required>
+                <option value="" disabled selected>- Seleccionar -</option>
+                <option value="argentina">Argentina</option>
+                <option value="brasileña">Brasileña</option>
+                <option value="uruguaya">Uruguaya</option>
+                <option value="otra">Otra</option>
+            </select><br>
+            <label class="elementobloque" for="perfil">Contanos un poco de vos...</label>
+            <textarea maxlength="350" id="perfil" name="perfilcito"></textarea>
+            <p>Sexo:*</p>
+            <input type="radio" id="femenino" name="sexo" value="femenino" checked>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="masculino" name="sexo" value="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="otro" name="sexo" value="otro">
+            <label for="otro">Otro</label>
+        </fieldset>
+        <div class="lineapunteada"></div>
+        <fieldset id="segundofieldset">
+            <legend><span>📱 D</span>ATOS DE <span>C</span>ONTACTO <span>📩</span></legend>
+            <label class="elementobloque" for="telefono">Teléfono:</label>
+            <input class="inputcajas textoderecha" type="tel" id="telefono" name="telefonito" placeholder="Código de área y número"><br>
+            <label class="elementobloque" for="correo">Direccion de correo electrónico:*</label>
+            <input class="inputcajas textoderecha" type="email" id="correo" name="correito" required placeholder="Ej:mail@gmail.com">
+        </fieldset>
+        <div class="lineapunteada"></div>
+        <fieldset id="ultimofieldset">
+            <legend><span> 🚴🏼‍♀️ A</span>CTIVIDADES <span>🤸🏼</span></legend>
+            <p id="parrafoporfavor">Por favor, indicá cuáles actividades te interesan.</p>
+            <p>Sede Palermo:</p>
+            <input type="checkbox" id="basquet-palermo" name="basquetpalermo1" value="basquet">
+            <label for="basquet-palermo">Básquet</label>
+            <input  type="checkbox" id="boxeo" name="boxeopalermo2" value="boxeo">
+            <label for="boxeo">Boxeo</label>
+            <input  type="checkbox" id="futbol-palermo" name="futbolpalermo3" value="futbol">
+            <label for="futbol-palermo">Fútbol</label>
+            <input  type="checkbox" id="tenis" name="tenispalermo4" value="tenis">
+            <label for="tenis">tenis</label>
+            <p>Sede Rosario:</p>
+            <input  type="checkbox" id="basquet-rosario" name="basquetrosario1" value="basquet">
+            <label for="basquet-rosario">Básquet</label>
+            <input  type="checkbox" id="futbol-rosario" name="futbolrosario2" value="futbol">
+            <label for="futbol-rosario">Fútbol</label>
+            <input  type="checkbox" id="rugby" name="rugbyrosario3" value="rugby">
+            <label for="rugby">Rugby</label>
+            <input  type="checkbox" id="voley" name="voleyrosario4" value="voley">
+            <label for="voley">Voley</label>
+        </fieldset>
+        <div class="contenedordecondiciones">
+            <input type="checkbox" id="condiciones" name="condicioncitas" value="condiciones-aceptadas" required>
+            <label  for="condiciones">Acepto las condiciones*</label>
+        </div>
+        <div class="contenedordecondiciones">
+            <input type="checkbox" id="novedades" name="novedades" value="novedades-aceptadas">
+            <label for="novedades">Deseo recibir novedades</label>
+            <p>*:campo obligatorio.</p>
+        </div>
+        <div id="conenedorbotones">
+            <button class="botones" type="submit">Iniciar afiliación</button>
+            <button class="botones" type="reset">Restablecer</button>
+        </div>
+    </form>
+</body>
+</html>

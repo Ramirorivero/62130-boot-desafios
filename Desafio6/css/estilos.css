@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,900;1,900&family=Roboto:wght@100;300;400;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1E1F23;
+
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #1E1F23;
+    border-top: 20px solid #4D6D63;
+    border-bottom: 20px solid #4D6D63; 
+    margin: 50px 200px;
+}
+h1{
+    color: #fff;
+    font-family: bold, 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+form{
+    font: 300 15px 'Roboto', sans-serif; 
+}
+fieldset{
+    text-align: center;
+    margin: 20px 200px;
+    background-color: #D6E2DE;
+    border-radius: 3px;
+    padding-bottom: 40px;
+}
+fieldset:focus-within{
+    background-color: #A6C1B9;
+}
+legend{
+    text-align: start;
+    background-color: #4D6D63;
+    color:#fff;
+    font: bold 13px 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+}
+span{
+    font-size: 20px;
+}
+
+.elementobloque{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputcajas,textarea{
+    width: 70%;
+    height: 25px;
+    border-radius: 3px;
+    border: 0.5px solid #4D6D63;
+}
+textarea{
+    height: 100px;
+}
+ input:focus-within,textarea:focus-within{
+    background-color: #4E6D63;
+    outline: none;
+    border: 1px solid #1E1F23;
+}
+select:focus-within{
+    outline: none;
+    border: 1px solid #1E1F23;
+}
+.lineapunteada{
+    border-bottom:15px dotted #A6C1B9 ;
+    margin: 20px 400px; 
+}
+.textoderecha{
+    text-align: end;
+}
+#ultimofieldset{
+    text-align: start;
+}
+#parrafoporfavor{
+    font-size: small;
+}
+.contenedordecondiciones{
+    color: #fff;
+    font:  16px 'Roboto', sans-serif;
+    margin: 20px 200px;
+}
+#conenedorbotones{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    margin: 50px 400px;
+ 
+}
+.botones{
+    background-color: #2B3C37;
+    color: #8EC1BC;
+    border-radius: 3px;
+    width: 150px;
+    height: 45px;
+    font:400 17px 'Roboto', sans-serif; 
+    border: 0.5px solid #4D6D63;
+}
+.botones:hover{
+    background-color: #AFC5C0;
+    color: #4B655F;
+}

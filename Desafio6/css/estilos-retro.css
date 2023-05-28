@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Smokum&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(/img/fondoretro.avif);
+    background-size: cover;
+    font-family: 'Smokum', cursive;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 200px;;
+    border-top: 20px solid #000;
+    border-bottom: 20px solid #000; 
+    background-image: url(/img/papelviejo.avif);
+}
+h1{
+    font-size: 50px;
+    font-family:  'Monoton', cursive;
+    color: #fff;
+    text-shadow:  10px 7px 3px #7EAFB1,15px 10px 5px #1C589C, 20px 15px 7px #2F3686,25px 20px 9px #EBCE53,40px 25px 15px #EC4F40;
+}
+#primerfieldset{
+    margin: 10px 200px;
+    background-image:  url(/img/cassete.png),url(/img/papelviejo.avif);
+    background-size: 10% 10%,cover;
+    border: 2px solid #000;
+    font-size: 25px;
+    color: #fff;
+}
+#segundofieldset{
+    margin: 10px 200px;
+    background-image:  url(/img/vinilo.png),url(/img/papelviejo.avif);
+    background-size:contain, cover;
+    background-position: center right;
+    background-repeat: repeat space,repeat;
+    border: 2px solid #000;
+    font-size: 25px;
+    color: #fff;
+}
+#ultimofieldset{
+    margin: 10px 200px;
+    background-image:  url(/img/citroen.png),url(/img/papelviejo.avif);
+    background-size:contain, cover;
+    background-position: center right;
+    background-repeat: no-repeat,repeat;
+    border: 2px solid #000;
+    font-size: 25px;
+    color: #fff;
+}
+legend{
+    width: 35%;
+    background-color: #E6D2B2;
+    color:#992701;
+    font:  17px 'Monoton', cursive;
+    padding:10px ;
+    box-shadow: 0 0 5px 5px #000;
+    border: 0.5px solid #992701;
+}
+.elementobloque{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputcajas,textarea{
+    width: 40%;
+    height: 30px;
+    border: 0.5px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+textarea{
+    height: 100px;
+}
+input:focus-within,textarea:focus-within{
+    outline: none;
+    border: 3px solid #1C589C;
+}
+select:focus-within{
+    outline: none;
+    border: 3px solid #1C589C;
+}
+.contenedordecondiciones{
+    font:   18px 'Smokum', cursive;
+    margin: 20px 200px;
+}
+#conenedorbotones{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    margin: 50px 300px;
+}
+.botones{
+    width: 200px;
+    height: 60px;
+    font:18px 'Smokum', cursive;
+    border: 5px solid #000;   
+    background-color: #1E3A46;
+}
+.botones:hover{
+    color: #000; 
+    background-image: url(/img/papelviejo.avif);
+}
